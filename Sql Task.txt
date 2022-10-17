@@ -1,0 +1,21 @@
+
+
+1.create database Training_db
+
+2.show databases
+
+3.use training_db
+
+4.CREATE TABLE Persons (
+    Personid int NOT NULL AUTO_INCREMENT,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    PRIMARY KEY (Personid)
+	);
+
+   select * from training_db.persons
+
+5.show tables;
+
+6.DESCRIBE persons; 
